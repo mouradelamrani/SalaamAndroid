@@ -1,0 +1,13 @@
+.gradle
+/local.properties
+/.idea
+/.navigation
+.DS_Store
+/build
+/captures
+/*.txt
+/app/fabric.properties
+*.iml
+*.o
+*.o.d
+/projectFilesBackup

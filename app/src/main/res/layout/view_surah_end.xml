@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:background="#80000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="61dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:lineSpacingExtra="1.5dp"
+            android:text="@string/activity_surah_end_title"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/divider_yellow" />
+
+        <TextView
+            android:id="@+id/tvSurahEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:lineSpacingExtra="1.5dp"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            tools:text="@string/activity_surah_end_text" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/buttonRepeatSurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="33.5dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/ivAnimationRepeat"
+            android:layout_width="103dp"
+            android:layout_height="54dp"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/activity_surah_end_button"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+
+</FrameLayout>

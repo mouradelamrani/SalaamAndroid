@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/yellow_light</item>
+        <item name="colorPrimaryDark">@color/yellow_light</item>
+        <item name="colorAccent">@color/yellow_light</item>
+
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_primary</item>
+        <!--        <item name="android:colorEdgeEffect">@color/highlight</item>-->
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:windowAnimationStyle">@style/ActivityTransitions</item>
+    </style>
+
+    <style name="ActivityTheme" parent="AppTheme">
+        <!-- General -->
+        <item name="android:windowBackground">@color/background</item>
+        <!-- Status and Navigation bars -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="VerticalScrollbars">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarSize">2.0dp</item>
+        <item name="android:scrollbarFadeDuration">125</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">250</item>
+    </style>
+
+
+    <style name="ActivityTransitions" parent="android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/default_start_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/default_start_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/default_finish_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/default_finish_exit</item>
+    </style>
+
+</resources>

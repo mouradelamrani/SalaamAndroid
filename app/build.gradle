@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion versions.target_sdk
+
+    defaultConfig {
+        applicationId "com.mouradelamrani.salaam"
+
+        minSdkVersion versions.min_sdk
+        targetSdkVersion versions.target_sdk
+
+        versionCode versions.app_version_code
+        versionName versions.app_version_name
+
+        renderscriptTargetApi 28
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+    implementation "androidx.appcompat:appcompat:$versions.app_compat"
+    implementation "androidx.core:core-ktx:$versions.ktx"
+    implementation "androidx.recyclerview:recyclerview:$versions.app_compat"
+    implementation "com.google.code.gson:gson:$versions.gson"
+    implementation "com.github.bumptech.glide:glide:$versions.glide"
+    annotationProcessor "com.github.bumptech.glide:compiler:$versions.glide"
+    implementation "jp.wasabeef:glide-transformations:$versions.glide_blur"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$versions.lifecycle"
+    implementation "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
+    kapt "androidx.lifecycle:lifecycle-compiler:$versions.lifecycle"
+    implementation "com.google.firebase:firebase-analytics:$versions.firebase_analytics"
+    implementation "com.google.firebase:firebase-crashlytics:$versions.crashlytics"
+    // test
+    testImplementation "junit:junit:$versions.junit"
+    androidTestImplementation "androidx.test.ext:junit:$versions.android_junit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espresso"
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mouradelamrani.salaam.utils.views.InsetRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutSurah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background">
+
+    <ImageView
+        android:id="@+id/ivLampLeft"
+        android:layout_width="92dp"
+        android:layout_height="208dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/ic_lamp_left" />
+
+    <ImageView
+        android:id="@+id/ivLampRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/ic_lamp_right" />
+
+    <ImageView
+        android:id="@+id/buttonClose"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="6.5dp"
+        android:layout_marginTop="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_circle"
+        android:padding="12dp"
+        android:src="@drawable/ic_close" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/surah_logo_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:scaleType="centerInside"
+        tools:src="@drawable/ic_surah_al_ikhlas_logo" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollViewVerse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutPlayer"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="204dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/tvTranslatedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:lineSpacingExtra="1.5dp"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                tools:text="And whoever does an\natom's weight of evil will see it." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/divider_yellow" />
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/geeza_pro"
+                android:gravity="center"
+                android:textColor="@color/text_primary"
+                android:textSize="27.5sp"
+                tools:text="صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/divider_yellow" />
+
+            <TextView
+                android:id="@+id/tvTransliteratedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:lineSpacingExtra="1.5dp"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                tools:text="Wa maiy-y'amal mithqala zarratin\nsharraiy-yarah" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layoutPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="31dp">
+
+        <ImageView
+            android:id="@+id/buttonPrevious"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="28.5dp"
+            android:layout_toLeftOf="@+id/buttonPlayPause"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_ic_previous" />
+
+        <ImageView
+            android:id="@+id/buttonNext"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="28.5dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/buttonPlayPause"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_ic_next" />
+
+        <ImageView
+            android:id="@+id/buttonPlayPause"
+            android:layout_width="42.5dp"
+            android:layout_height="42.5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_play"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_ic_pause" />
+
+        <ImageView
+            android:id="@+id/buttonModeLoop"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="7dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_ic_loop" />
+
+        <ImageView
+            android:id="@+id/buttonModeNext"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="7dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/selector_ic_mode_next" />
+
+        <ProgressBar
+            android:id="@+id/playerProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginBottom="12dp"
+            android:indeterminate="false"
+            android:progress="0"
+            android:progressDrawable="@drawable/player_progress_bar" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/layoutSurahEnd"
+        layout="@layout/view_surah_end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="204dp"
+        android:visibility="gone" />
+
+</com.mouradelamrani.salaam.utils.views.InsetRelativeLayout>

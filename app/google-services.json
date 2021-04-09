@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933964531118",
+    "firebase_url": "https://salaam-app-d157a.firebaseio.com",
+    "project_id": "salaam-app-d157a",
+    "storage_bucket": "salaam-app-d157a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933964531118:android:ebac66db8184e64f79b43f",
+        "android_client_info": {
+          "package_name": "com.mouradelamrani.salaam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933964531118-n7ripqt819v1jj79vguivcqkv87ia497.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mouradelamrani.salaam",
+            "certificate_hash": "fcf806a827b6ae999cf311d23c116ecab74b079c"
+          }
+        },
+        {
+          "client_id": "933964531118-gigj8gvbe5t648273qf2iolem2u98tnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtsNJFZ2-1Sx8lvbsoDDeXpdW6wf2Pa5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933964531118-gigj8gvbe5t648273qf2iolem2u98tnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

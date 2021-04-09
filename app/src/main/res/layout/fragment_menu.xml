@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/img_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:overScrollMode="never">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="210dp" />
+
+        <LinearLayout
+            android:id="@+id/buttonLanguage"
+            android:layout_width="206dp"
+            android:layout_height="51dp"
+            android:background="@drawable/background_button_menu"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_language" />
+
+            <TextView
+                android:id="@+id/tvLang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="1"
+                android:paddingBottom="2dp"
+                android:text="@string/fragment_menu_language"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutLanguages"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingTop="8dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="25dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivLanguageEn"
+                    android:layout_width="37.5dp"
+                    android:layout_height="37.5dp"
+                    android:background="@drawable/background_language_icon"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="4dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_language_en" />
+
+                <TextView
+                    android:id="@+id/tvLanguageEnTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:maxLines="1"
+                    android:text="@string/fragment_menu_language_en_title"
+                    android:textColor="@color/text_primary"
+                    android:textSize="11sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvLanguageEnText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_light_italic"
+                    android:maxLines="1"
+                    android:text="@string/fragment_menu_language_en_text"
+                    android:textColor="@color/text_primary"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivLanguageNl"
+                    android:layout_width="37.5dp"
+                    android:layout_height="37.5dp"
+                    android:background="@drawable/background_language_icon"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="4dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_language_nl" />
+
+                <TextView
+                    android:id="@+id/tvLanguageNlTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:maxLines="1"
+                    android:text="@string/fragment_menu_language_nl_title"
+                    android:textColor="@color/text_primary"
+                    android:textSize="11sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvLanguageNlText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_light_italic"
+                    android:maxLines="1"
+                    android:text="@string/fragment_menu_language_nl_text"
+                    android:textColor="@color/text_primary"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonFeedback"
+            android:layout_width="206dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background_button_menu"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_feedback" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="1"
+                android:paddingBottom="2dp"
+                android:text="@string/fragment_menu_feedback"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonRating"
+            android:layout_width="206dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background_button_menu"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_rating" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="1"
+                android:paddingBottom="2dp"
+                android:text="@string/fragment_menu_rating"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

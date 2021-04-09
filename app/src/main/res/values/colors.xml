@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="yellow_dark">#F6B151</color>
+    <color name="yellow_light">#EEB264</color>
+    <color name="background">#112247</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="icon_primary">#FFFFFF</color>
+    <color name="icon_accent">@color/yellow_light</color>
+    <color name="icon_pressed">#80FFFFFF</color>
+    <color name="icon_disabled">#40FFFFFF</color>
+    <color name="tint">#40303030</color>
+    <color name="tint_pressed">#80303030</color>
+    <color name="menu_overlay">#40000000</color>
+</resources>

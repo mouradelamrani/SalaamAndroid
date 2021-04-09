@@ -1,0 +1,723 @@
+<resources>
+    <string name="app_name" translatable="false">Salaam</string>
+
+    <string name="feedback_mail_subject_s" translatable="false">Feedback on %s for Android</string>
+
+    <string name="activity_surah_end_title">You have now\nreached the end of this Surah.</string>
+    <string name="activity_surah_end_text">May Allah reward you for taking the\ntime and effort to memorise\n</string>
+    <string name="activity_surah_end_text_surah_s" translatable="false">Surah %s</string>
+    <string name="activity_surah_end_button">Repeat</string>
+
+    <string name="fragment_menu_language">Language</string>
+    <string name="fragment_menu_feedback">Feedback</string>
+    <string name="fragment_menu_rating">Rating</string>
+    <string name="fragment_menu_language_en_title" translatable="false">English</string>
+    <string name="fragment_menu_language_en_text" translatable="false">Saheeh International</string>
+    <string name="fragment_menu_language_nl_title" translatable="false">Nederlands</string>
+    <string name="fragment_menu_language_nl_text" translatable="false">Sofjan S. Siregar</string>
+
+    <!-- Surahs -->
+    <string name="surah_al_fatiha_description">The Opener</string>
+    <string name="surah_an_nas_description">The Mankind</string>
+    <string name="surah_al_falaq_description">The Daybreak</string>
+    <string name="surah_al_ikhlas_description">The Sincerity</string>
+    <string name="surah_al_masad_description">The Palm Fiber</string>
+    <string name="surah_an_nasr_description">The Divine Support</string>
+    <string name="surah_al_kafirun_description">The Disbelievers</string>
+    <string name="surah_al_kawthar_description">The Abundance</string>
+    <string name="surah_al_maun_description">The Small Kindesses</string>
+    <string name="surah_quraysh_description">Quraysh</string>
+    <string name="surah_al_fil_description">The Elephant</string>
+    <string name="surah_al_humazah_description">The Traducer</string>
+    <string name="surah_al_asr_description">De Declining Day</string>
+    <string name="surah_at_takathur_description">Competition in Increase</string>
+    <string name="surah_al_qariah_description">The Calamity</string>
+    <string name="surah_al_adiyat_description">The Courser</string>
+    <string name="surah_az_zalzalah_description">The Earthquake</string>
+    <string name="surah_al_bayyinah_description">The Clear Proof</string>
+    <string name="surah_al_qadr_description">The Power</string>
+    <string name="surah_al_alaq_description">The Clot</string>
+    <string name="surah_at_tin_description">The Fig</string>
+    <string name="surah_ash_sharh_description">The Relief</string>
+    <string name="surah_ad_duhaa_description">The Morning Hours</string>
+    <string name="surah_al_layl_description">The Night</string>
+    <string name="surah_ash_shams_description">The Sun</string>
+    <string name="surah_al_balad_description">The City</string>
+    <string name="surah_al_fajr_description">The Dawn</string>
+    <string name="surah_al_ghashiyah_description">The Overwhelming</string>
+    <string name="surah_al_ala_description">The Most High</string>
+    <string name="surah_at_tariq_description">The Nightcommer</string>
+    <!-- me work start -->
+    <string name="surah_an_naba">The Tidings</string>
+    <string name="surah_an_naziat">Those Who Pull Out</string>
+    <string name="surah_Abasa">He Frowned</string>
+    <string name="surah_At_Takwir">The Overthrowing</string>
+    <string name="surah_Al_Infitaar">The Cleaving</string>
+    <string name="surah_Al_Mutaffifin">The Defrauding</string>
+
+    <string name="surah_Al_Inshiqaq">The Sundering</string>
+
+    <string name="surah_Al_Burooj">The Stars</string>
+
+
+
+
+
+
+
+
+
+
+    <!-- Verses -->
+    <string name="verse_al_fatiha_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_fatiha_1">[All] praise is [due] to Allah,\nLord of the worlds -</string>
+    <string name="verse_al_fatiha_2">The Entirely Merciful,\nthe Especially Merciful,</string>
+    <string name="verse_al_fatiha_3">Sovereign of the\nDay of Recompense.</string>
+    <string name="verse_al_fatiha_4">It is You we worship\nand You we ask for help.</string>
+    <string name="verse_al_fatiha_5">Guide us\nto the straight path -</string>
+    <string name="verse_al_fatiha_6">The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.</string>
+
+    <string name="verse_an_nas_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_an_nas_1">Say, “I seek refuge in the Lord of mankind,</string>
+    <string name="verse_an_nas_2">The Sovereign of mankind.</string>
+    <string name="verse_an_nas_3">The God of mankind,</string>
+    <string name="verse_an_nas_4">From the evil\nof the retreating whisperer -</string>
+    <string name="verse_an_nas_5">Who whispers [evil]\ninto the breasts of mankind -</string>
+    <string name="verse_an_nas_6">From among the jinn and mankind.”</string>
+
+    <string name="verse_al_falaq_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_falaq_1">Say, “I seek refuge in the Lord of daybreak</string>
+    <string name="verse_al_falaq_2">From the evil\nof that which He created</string>
+    <string name="verse_al_falaq_3">And from the evil\nof darkness when it settles</string>
+    <string name="verse_al_falaq_4">And from the evil\nof the blowers in knots</string>
+    <string name="verse_al_falaq_5">And from the evil of an envier when he envies.\"</string>
+
+    <string name="verse_al_ikhlas_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_ikhlas_1">Say, \"He is Allah, [who is] One,</string>
+    <string name="verse_al_ikhlas_2">Allah,\nthe Eternal Refuge.</string>
+    <string name="verse_al_ikhlas_3">He neither\nbegets nor is born,</string>
+    <string name="verse_al_ikhlas_4">Nor is there to Him any equivalent.\"</string>
+
+    <string name="verse_al_masad_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_masad_1">May the hands of\nAbu Lahab be ruined, and ruined is he.</string>
+    <string name="verse_al_masad_2">His wealth will not avail\nhim or that which he gained.</string>
+    <string name="verse_al_masad_3">He will [enter to] burn\nin a Fire of [blazing] flame</string>
+    <string name="verse_al_masad_4">And his wife\n[as well] - the carrier of firewood.</string>
+    <string name="verse_al_masad_5">Around her neck\nis a rope of [twisted] fiber.</string>
+
+    <string name="verse_an_nasr_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_an_nasr_1">When the victory of Allah\nhas come and the conquest,</string>
+    <string name="verse_an_nasr_2">And you see the people entering\ninto the religion of Allah in multitudes,</string>
+    <string name="verse_an_nasr_3">Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.</string>
+
+    <string name="verse_al_kafirun_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_kafirun_1">Say, \"O disbelievers,</string>
+    <string name="verse_al_kafirun_2">I do not\nworship what you worship.</string>
+    <string name="verse_al_kafirun_3">Nor are you\nworshippers of what I worship.</string>
+    <string name="verse_al_kafirun_4">Nor will I be a\nworshipper of what you worship.</string>
+    <string name="verse_al_kafirun_5">Nor will you be\nworshippers of what I worship.</string>
+    <string name="verse_al_kafirun_6">For you is your religion, and for me is my religion.\"</string>
+
+    <string name="verse_al_kawthar_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_kawthar_1">Indeed, We have granted you,\n[O Muhammad], al-Kawthar.</string>
+    <string name="verse_al_kawthar_2">So pray to your\nLord and sacrifice [to Him alone].</string>
+    <string name="verse_al_kawthar_3">Indeed,\nyour enemy is the one cut off.</string>
+
+    <string name="verse_al_maun_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_maun_1">Have you seen the\none who denies the Recompense?</string>
+    <string name="verse_al_maun_2">For that is the one\nwho drives away the orphan</string>
+    <string name="verse_al_maun_3">And does not\nencourage the feeding of the poor.</string>
+    <string name="verse_al_maun_4">So woe to those who pray</string>
+    <string name="verse_al_maun_5">[But] who are\nheedless of their prayer -</string>
+    <string name="verse_al_maun_6">Those who\nmake show [of their deeds]</string>
+    <string name="verse_al_maun_7">And withhold\n[simple] assistance.</string>
+
+    <string name="verse_quraysh_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_quraysh_1">For the accustomed\nsecurity of the Quraysh -</string>
+    <string name="verse_quraysh_2">Their accustomed security [in]\nthe caravan of winter and summer -</string>
+    <string name="verse_quraysh_3">Let them worship\nthe Lord of this House,</string>
+    <string name="verse_quraysh_4">Who has fed them,\n[saving them] from hunger and\nmade them safe, [saving them] from fear.</string>
+
+    <string name="verse_al_fil_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_fil_1">Have you not considered,\n[O Muhammad], how your Lord dealt\nwith the companions of the elephant?</string>
+    <string name="verse_al_fil_2">Did He not make\ntheir plan into misguidance?</string>
+    <string name="verse_al_fil_3">And He sent\nagainst them birds in flocks,</string>
+    <string name="verse_al_fil_4">Striking them\nwith stones of hard clay,</string>
+    <string name="verse_al_fil_5">And He\nmade them like eaten straw.</string>
+
+    <string name="verse_al_humazah_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_humazah_1">Woe to\nevery scorner and mocker</string>
+    <string name="verse_al_humazah_2">Who collects wealth\nand [continuously] counts it.</string>
+    <string name="verse_al_humazah_3">He thinks that\nhis wealth will make him immortal.</string>
+    <string name="verse_al_humazah_4">No! He will surely\nbe thrown into the Crusher.</string>
+    <string name="verse_al_humazah_5">And what can make\nyou know what is the Crusher?</string>
+    <string name="verse_al_humazah_6">It is the fire of Allah,\n[eternally] fueled,</string>
+    <string name="verse_al_humazah_7">Which mounts\ndirected at the hearts.</string>
+    <string name="verse_al_humazah_8">Indeed,\nHellfire will be closed down upon them</string>
+    <string name="verse_al_humazah_9">In extended columns.</string>
+
+
+    <string name="verse_al_asr_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_asr_1">By time,</string>
+    <string name="verse_al_asr_2">Indeed,\nmankind is in loss,</string>
+    <string name="verse_al_asr_3">Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.</string>
+
+    <string name="verse_at_takathur_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_at_takathur_1">Competition in\n[worldly] increase diverts you</string>
+    <string name="verse_at_takathur_2">Until you\nvisit the graveyards.</string>
+    <string name="verse_at_takathur_3">No!\nYou are going to know.</string>
+    <string name="verse_at_takathur_4">Then no!\nYou are going to know.</string>
+    <string name="verse_at_takathur_5">No! If you only knew\nwith knowledge of certainty.</string>
+    <string name="verse_at_takathur_6">You will\nsurely see the Hellfire.</string>
+    <string name="verse_at_takathur_7">Then you will surely\nsee it with the eye of certainty.</string>
+    <string name="verse_at_takathur_8">Then you will surely be asked that Day about pleasure.</string>
+
+    <string name="verse_al_qariah_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_qariah_1">The Striking Calamity -</string>
+    <string name="verse_al_qariah_2">What is\nthe Striking Calamity?</string>
+    <string name="verse_al_qariah_3">And what can make you\nknow what is the Striking Calamity?</string>
+    <string name="verse_al_qariah_4">It is the Day when\npeople will be like moths, dispersed,</string>
+    <string name="verse_al_qariah_5">And the mountains will be like wool, fluffed up.</string>
+    <string name="verse_al_qariah_6">Then as for one whose\nscales are heavy [with good deeds],</string>
+    <string name="verse_al_qariah_7">He will be\nin a pleasant life.</string>
+    <string name="verse_al_qariah_8">But as for one\nwhose scales are light,</string>
+    <string name="verse_al_qariah_9">His refuge\nwill be an abyss.</string>
+    <string name="verse_al_qariah_10">And what can\nmake you know what that is?</string>
+    <string name="verse_al_qariah_11">It is a Fire,\nintensely hot.</string>
+
+    <string name="verse_az_zalzalah_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_az_zalzalah_1">When the earth is\nshaken with its [final] earthquake</string>
+    <string name="verse_az_zalzalah_2">And the earth\ndischarges its burdens</string>
+    <string name="verse_az_zalzalah_3">And man says, \"What is [wrong] with it?\" -</string>
+    <string name="verse_az_zalzalah_4">That Day,\nit will report its news</string>
+    <string name="verse_az_zalzalah_5">Because your\nLord has commanded it.</string>
+    <string name="verse_az_zalzalah_6">That Day, the people will depart separated [into categories] to be shown [the result of] their deeds.</string>
+    <string name="verse_az_zalzalah_7">So whoever does an\natom\'s weight of good will see it,</string>
+    <string name="verse_az_zalzalah_8">And whoever does an\natom\'s weight of evil will see it.</string>
+
+    <string name="verse_al_qadr_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_qadr_1">Indeed, We sent the Qur\'an\ndown during the Night of Decree.</string>
+    <string name="verse_al_qadr_2">And what can make you\nknow what is the Night of Decree?</string>
+    <string name="verse_al_qadr_3">The Night of Decree is\nbetter than a thousand months.</string>
+    <string name="verse_al_qadr_4">The angels and the Spirit descend therein by permission of their Lord for every matter.</string>
+    <string name="verse_al_qadr_5">Peace it is until\nthe emergence of dawn.</string>
+
+    <string name="verse_at_tin_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_at_tin_1">By the fig and the olive</string>
+    <string name="verse_at_tin_2">And [by] Mount Sinai</string>
+    <string name="verse_at_tin_3">And [by] this\nsecure city [Makkah],</string>
+    <string name="verse_at_tin_4">We have certainly\ncreated man in the best of stature;</string>
+    <string name="verse_at_tin_5">Then We return\nhim to the lowest of the low,</string>
+    <string name="verse_at_tin_6">Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.</string>
+    <string name="verse_at_tin_7">So what yet causes\nyou to deny the Recompense?</string>
+    <string name="verse_at_tin_8">Is not Allah the\nmost just of judges?</string>
+
+    <!-- Verses for new 12 surah are below -->
+
+    <string name="verse_al_adiyat_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_adiyat_1">By the racers, panting,</string>
+    <string name="verse_al_adiyat_2">And the producers of sparks [when] striking</string>
+    <string name="verse_al_adiyat_3">And the chargers at dawn,</string>
+    <string name="verse_al_adiyat_4">Stirring up thereby [clouds of] dust,</string>
+    <string name="verse_al_adiyat_5">Arriving thereby in the center collectively,</string>
+    <string name="verse_al_adiyat_6">Indeed mankind, to his Lord, is ungrateful.</string>
+    <string name="verse_al_adiyat_7">And indeed, he is to that a witness.</string>
+    <string name="verse_al_adiyat_8">And indeed he is, in love of wealth, intense.</string>
+    <string name="verse_al_adiyat_9">But does he not know that when the contents of the graves are scattered</string>
+    <string name="verse_al_adiyat_10">And that within the breasts is obtained,</string>
+    <string name="verse_al_adiyat_11">Indeed, their Lord with them, that Day, is [fully] Acquainted.</string>
+
+    <string name="verse_al_bayyinah_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_bayyinah_1">Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence -</string>
+    <string name="verse_al_bayyinah_2">A Messenger from Allah, reciting purified scriptures</string>
+    <string name="verse_al_bayyinah_3">Within which are correct writings.</string>
+    <string name="verse_al_bayyinah_4">Nor did those who were given the Scripture become divided until after there had come to them clear evidence.</string>
+    <string name="verse_al_bayyinah_5">And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion.</string>
+    <string name="verse_al_bayyinah_6">Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures.</string>
+    <string name="verse_al_bayyinah_7">Indeed, they who have believed and done righteous deeds - those are the best of creatures.</string>
+    <string name="verse_al_bayyinah_8">Their reward with Allah will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allah being pleased with them and they with Him. That is for whoever has feared his Lord.</string>
+
+    <string name="verse_al_alaq_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_alaq_1">Recite in the name of your Lord who created -</string>
+    <string name="verse_al_alaq_2">Created man from a clinging substance.</string>
+    <string name="verse_al_alaq_3">Recite, and your Lord is the most Generous -</string>
+    <string name="verse_al_alaq_4">Who taught by the pen -</string>
+    <string name="verse_al_alaq_5">Taught man that which he knew not.</string>
+    <string name="verse_al_alaq_6">No! [But] indeed, man transgresses</string>
+    <string name="verse_al_alaq_7">Because he sees himself self-sufficient.</string>
+    <string name="verse_al_alaq_8">Indeed, to your Lord is the return.</string>
+    <string name="verse_al_alaq_9">Have you seen the one who forbids</string>
+    <string name="verse_al_alaq_10">A servant when he prays?</string>
+    <string name="verse_al_alaq_11">Have you seen if he is upon guidance</string>
+    <string name="verse_al_alaq_12">Or enjoins righteousness?</string>
+    <string name="verse_al_alaq_13">Have you seen if he denies and turns away -</string>
+    <string name="verse_al_alaq_14">Does he not know that Allah sees?</string>
+    <string name="verse_al_alaq_15">No! If he does not desist, We will surely drag him by the forelock -</string>
+    <string name="verse_al_alaq_16">A lying, sinning forelock.</string>
+    <string name="verse_al_alaq_17">Then let him call his associates;</string>
+    <string name="verse_al_alaq_18">We will call the angels of Hell.</string>
+    <string name="verse_al_alaq_19">No! Do not obey him. But prostrate and draw near [to Allah].</string>
+
+    <string name="verse_ash_sharh_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_ash_sharh_1">Did We not expand for you, [O Muhammad], your breast?</string>
+    <string name="verse_ash_sharh_2">And We removed from you your burden</string>
+    <string name="verse_ash_sharh_3">Which had weighed upon your back</string>
+    <string name="verse_ash_sharh_4">And raised high for you your repute.</string>
+    <string name="verse_ash_sharh_5">For indeed, with hardship [will be] ease.</string>
+    <string name="verse_ash_sharh_6">Indeed, with hardship [will be] ease.</string>
+    <string name="verse_ash_sharh_7">So when you have finished [your duties], then stand up [for worship].</string>
+    <string name="verse_ash_sharh_8">And to your Lord direct [your] longing.</string>
+
+    <string name="verse_ad_duhaa_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_ad_duhaa_1">By the morning brightness</string>
+    <string name="verse_ad_duhaa_2">And [by] the night when it covers with darkness,</string>
+    <string name="verse_ad_duhaa_3">Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you].</string>
+    <string name="verse_ad_duhaa_4">And the Hereafter is better for you than the first [life].</string>
+    <string name="verse_ad_duhaa_5">And your Lord is going to give you, and you will be satisfied.</string>
+    <string name="verse_ad_duhaa_6">Did He not find you an orphan and give [you] refuge?</string>
+    <string name="verse_ad_duhaa_7">And He found you lost and guided [you],</string>
+    <string name="verse_ad_duhaa_8">And He found you poor and made [you] self-sufficient.</string>
+    <string name="verse_ad_duhaa_9">So as for the orphan, do not oppress [him].</string>
+    <string name="verse_ad_duhaa_10">And as for the petitioner, do not repel [him].</string>
+    <string name="verse_ad_duhaa_11">But as for the favor of your Lord, report [it].</string>
+
+    <string name="verse_al_layl_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_layl_1">By the night when it covers</string>
+    <string name="verse_al_layl_2">And [by] the day when it appears</string>
+    <string name="verse_al_layl_3">And [by] He who created the male and female,</string>
+    <string name="verse_al_layl_4">Indeed, your efforts are diverse.</string>
+    <string name="verse_al_layl_5">As for he who gives and fears Allah</string>
+    <string name="verse_al_layl_6">And believes in the best [reward],</string>
+    <string name="verse_al_layl_7">We will ease him toward ease.</string>
+    <string name="verse_al_layl_8">But as for he who withholds and considers himself free of need</string>
+    <string name="verse_al_layl_9">And denies the best [reward],</string>
+    <string name="verse_al_layl_10">We will ease him toward difficulty.</string>
+    <string name="verse_al_layl_11">And what will his wealth avail him when he falls?</string>
+    <string name="verse_al_layl_12">Indeed, [incumbent] upon Us is guidance.</string>
+    <string name="verse_al_layl_13">And indeed, to Us belongs the Hereafter and the first [life].</string>
+    <string name="verse_al_layl_14">So I have warned you of a Fire which is blazing.</string>
+    <string name="verse_al_layl_15">None will [enter to] burn therein except the most wretched one.</string>
+    <string name="verse_al_layl_16">Who had denied and turned away.</string>
+    <string name="verse_al_layl_17">But the righteous one will avoid it -</string>
+    <string name="verse_al_layl_18">[He] who gives [from] his wealth to purify himself</string>
+    <string name="verse_al_layl_19">And not [giving] for anyone who has [done him] a favor to be rewarded</string>
+    <string name="verse_al_layl_20">But only seeking the countenance of his Lord, Most High.</string>
+    <string name="verse_al_layl_21">And he is going to be satisfied.</string>
+
+    <string name="verse_ash_shams_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_ash_shams_1">By the sun and its brightness</string>
+    <string name="verse_ash_shams_2">And [by] the moon when it follows it</string>
+    <string name="verse_ash_shams_3">And [by] the day when it displays it</string>
+    <string name="verse_ash_shams_4">And [by] the night when it covers it</string>
+    <string name="verse_ash_shams_5">And [by] the sky and He who constructed it</string>
+    <string name="verse_ash_shams_6">And [by] the earth and He who spread it</string>
+    <string name="verse_ash_shams_7">And [by] the soul and He who proportioned it</string>
+    <string name="verse_ash_shams_8">And inspired it [with discernment of] its wickedness and its righteousness,</string>
+    <string name="verse_ash_shams_9">He has succeeded who purifies it,</string>
+    <string name="verse_ash_shams_10">And he has failed who instills it [with corruption].</string>
+    <string name="verse_ash_shams_11">Thamud denied [their prophet] by reason of their transgression,</string>
+    <string name="verse_ash_shams_12">When the most wretched of them was sent forth.</string>
+    <string name="verse_ash_shams_13">And the messenger of Allah [Salih] said to them, \"[Do not harm] the	she-camel of Allah or [prevent her from] her drink.\"</string>
+    <string name="verse_ash_shams_14">But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them].</string>
+    <string name="verse_ash_shams_15">And He does not fear the consequence thereof.</string>
+
+    <string name="verse_al_balad_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_balad_1">I swear by this city, Makkah -</string>
+    <string name="verse_al_balad_2">And you, [O Muhammad], are free of restriction in this city -</string>
+    <string name="verse_al_balad_3">And [by] the father and that which was born [of him],</string>
+    <string name="verse_al_balad_4">We have certainly created man into hardship.</string>
+    <string name="verse_al_balad_5">Does he think that never will anyone overcome him?</string>
+    <string name="verse_al_balad_6">He says, \"I have spent wealth in abundance.\"</string>
+    <string name="verse_al_balad_7">Does he think that no one has seen him?</string>
+    <string name="verse_al_balad_8">Have We not made for him two eyes?</string>
+    <string name="verse_al_balad_9">And a tongue and two lips?</string>
+    <string name="verse_al_balad_10">And have shown him the two ways?</string>
+    <string name="verse_al_balad_11">But he has not broken through the difficult pass.</string>
+    <string name="verse_al_balad_12">And what can make you know what is [breaking through] the difficult pass?</string>
+    <string name="verse_al_balad_13">It is the freeing of a slave</string>
+    <string name="verse_al_balad_14">Or feeding on a day of severe hunger</string>
+    <string name="verse_al_balad_15">An orphan of near relationship</string>
+    <string name="verse_al_balad_16">Or a needy person in misery</string>
+    <string name="verse_al_balad_17">And then being among those who believed and advised one another to patience and advised one another to compassion.</string>
+    <string name="verse_al_balad_18">Those are the companions of the right.</string>
+    <string name="verse_al_balad_19">But they who disbelieved in Our signs - those are the companions of the left.</string>
+    <string name="verse_al_balad_20">Over them will be fire closed in.</string>
+
+    <string name="verse_al_fajr_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_fajr_1">By the dawn</string>
+    <string name="verse_al_fajr_2">And [by] ten nights</string>
+    <string name="verse_al_fajr_3">And [by] the even [number] and the odd</string>
+    <string name="verse_al_fajr_4">And [by] the night when it passes,</string>
+    <string name="verse_al_fajr_5">Is there [not] in [all] that an oath [sufficient] for one of perception?</string>
+    <string name="verse_al_fajr_6">Have you not considered how your Lord dealt with \'Aad -</string>
+    <string name="verse_al_fajr_7">[With] Iram - who had lofty pillars,</string>
+    <string name="verse_al_fajr_8">The likes of whom had never been created in the land?</string>
+    <string name="verse_al_fajr_9">And [with] Thamud, who carved out the rocks in the valley?</string>
+    <string name="verse_al_fajr_10">And [with] Pharaoh, owner of the stakes? -</string>
+    <string name="verse_al_fajr_11">[All of] whom oppressed within the lands</string>
+    <string name="verse_al_fajr_12">And increased therein the corruption.</string>
+    <string name="verse_al_fajr_13">So your Lord poured upon them a scourge of punishment.</string>
+    <string name="verse_al_fajr_14">Indeed, your Lord is in observation.</string>
+    <string name="verse_al_fajr_15">And as for man, when his Lord tries him and [thus] is generous to him	and favors him, he says, \"My Lord has honored me.\"</string>
+    <string name="verse_al_fajr_16">But when He tries him and restricts his provision, he says, \"My Lord has	humiliated me.\"</string>
+    <string name="verse_al_fajr_17">No! But you do not honor the orphan</string>
+    <string name="verse_al_fajr_18">And you do not encourage one another to feed the poor.</string>
+    <string name="verse_al_fajr_19">And you consume inheritance, devouring [it] altogether,</string>
+    <string name="verse_al_fajr_20">And you love wealth with immense love.</string>
+    <string name="verse_al_fajr_21">No! When the earth has been leveled - pounded and crushed -</string>
+    <string name="verse_al_fajr_22">And your Lord has come and the angels, rank upon rank,</string>
+    <string name="verse_al_fajr_23">And brought [within view], that Day, is Hell - that Day, man will remember, but what good to him will be the remembrance?</string>
+    <string name="verse_al_fajr_24">He will say, \"Oh, I wish I had sent ahead [some good] for my life.\"</string>
+    <string name="verse_al_fajr_25">So on that Day, none will punish [as severely] as His punishment,</string>
+    <string name="verse_al_fajr_26">And none will bind [as severely] as His binding [of the evildoers].</string>
+    <string name="verse_al_fajr_27">[To the righteous it will be said], \"O reassured soul,</string>
+    <string name="verse_al_fajr_28">Return to your Lord, well-pleased and pleasing [to Him],</string>
+    <string name="verse_al_fajr_29">And enter among My [righteous] servants</string>
+    <string name="verse_al_fajr_30">And enter My Paradise.\"</string>
+
+    <string name="verse_al_ghashiyah_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_ghashiyah_1">Has there reached you the report of the Overwhelming [event]?</string>
+    <string name="verse_al_ghashiyah_2">[Some] faces, that Day, will be humbled,</string>
+    <string name="verse_al_ghashiyah_3">Working [hard] and exhausted.</string>
+    <string name="verse_al_ghashiyah_4">They will [enter to] burn in an intensely hot Fire.</string>
+    <string name="verse_al_ghashiyah_5">They will be given drink from a boiling spring.</string>
+    <string name="verse_al_ghashiyah_6">For them there will be no food except from a poisonous, thorny plant</string>
+    <string name="verse_al_ghashiyah_7">Which neither nourishes nor avails against hunger.</string>
+    <string name="verse_al_ghashiyah_8">[Other] faces, that Day, will show pleasure.</string>
+    <string name="verse_al_ghashiyah_9">With their effort [they are] satisfied</string>
+    <string name="verse_al_ghashiyah_10">In an elevated garden,</string>
+    <string name="verse_al_ghashiyah_11">Wherein they will hear no unsuitable speech.</string>
+    <string name="verse_al_ghashiyah_12">Within it is a flowing spring.</string>
+    <string name="verse_al_ghashiyah_13">Within it are couches raised high</string>
+    <string name="verse_al_ghashiyah_14">And cups put in place</string>
+    <string name="verse_al_ghashiyah_15">And cushions lined up</string>
+    <string name="verse_al_ghashiyah_16">And carpets spread around.</string>
+    <string name="verse_al_ghashiyah_17">Then do they not look at the camels - how they are created?</string>
+    <string name="verse_al_ghashiyah_18">And at the sky - how it is raised?</string>
+    <string name="verse_al_ghashiyah_19">And at the mountains - how they are erected?</string>
+    <string name="verse_al_ghashiyah_20">And at the earth - how it is spread out?</string>
+    <string name="verse_al_ghashiyah_21">So remind, [O Muhammad]; you are only a reminder.</string>
+    <string name="verse_al_ghashiyah_22">You are not over them a controller.</string>
+    <string name="verse_al_ghashiyah_23">However, he who turns away and disbelieves -</string>
+    <string name="verse_al_ghashiyah_24">Then Allah will punish him with the greatest punishment.</string>
+    <string name="verse_al_ghashiyah_25">Indeed, to Us is their return.</string>
+    <string name="verse_al_ghashiyah_26">Then indeed, upon Us is their account.</string>
+
+    <string name="verse_al_ala_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_al_ala_1">Exalt the name of your Lord, the Most High,</string>
+    <string name="verse_al_ala_2">Who created and proportioned</string>
+    <string name="verse_al_ala_3">And who destined and [then] guided</string>
+    <string name="verse_al_ala_4">And who brings out the pasture</string>
+    <string name="verse_al_ala_5">And [then] makes it black stubble.</string>
+    <string name="verse_al_ala_6">We will make you recite, [O Muhammad], and you will not forget,</string>
+    <string name="verse_al_ala_7">Except what Allah should will. Indeed, He knows what is declared and what is hidden.</string>
+    <string name="verse_al_ala_8">And We will ease you toward ease.</string>
+    <string name="verse_al_ala_9">So remind, if the reminder should benefit;</string>
+    <string name="verse_al_ala_10">He who fears [Allah] will be reminded.</string>
+    <string name="verse_al_ala_11">But the wretched one will avoid it -</string>
+    <string name="verse_al_ala_12">[He] who will [enter and] burn in the greatest Fire,</string>
+    <string name="verse_al_ala_13">Neither dying therein nor living.</string>
+    <string name="verse_al_ala_14">He has certainly succeeded who purifies himself</string>
+    <string name="verse_al_ala_15">And mentions the name of his Lord and prays.</string>
+    <string name="verse_al_ala_16">But you prefer the worldly life,</string>
+    <string name="verse_al_ala_17">While the Hereafter is better and more enduring.</string>
+    <string name="verse_al_ala_18">Indeed, this is in the former scriptures,</string>
+    <string name="verse_al_ala_19">The scriptures of Abraham and Moses.</string>
+
+    <string name="verse_at_tariq_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_at_tariq_1">By the sky and the night comer -</string>
+    <string name="verse_at_tariq_2">And what can make you know what is the night comer?</string>
+    <string name="verse_at_tariq_3">It is the piercing star -</string>
+    <string name="verse_at_tariq_4">There is no soul but that it has over it a protector.</string>
+    <string name="verse_at_tariq_5">So let man observe from what he was created.</string>
+    <string name="verse_at_tariq_6">He was created from a fluid, ejected,</string>
+    <string name="verse_at_tariq_7">Emerging from between the backbone and the ribs.</string>
+    <string name="verse_at_tariq_8">Indeed, Allah, to return him [to life], is Able.</string>
+    <string name="verse_at_tariq_9">The Day when secrets will be put on trial,</string>
+    <string name="verse_at_tariq_10">Then man will have no power or any helper.</string>
+    <string name="verse_at_tariq_11">By the sky which returns [rain]</string>
+    <string name="verse_at_tariq_12">And [by] the earth which cracks open,</string>
+    <string name="verse_at_tariq_13">Indeed, the Qur\'an is a decisive statement,</string>
+    <string name="verse_at_tariq_14">And it is not amusement.</string>
+    <string name="verse_at_tariq_15">Indeed, they are planning a plan,</string>
+    <string name="verse_at_tariq_16">But I am planning a plan.</string>
+    <string name="verse_at_tariq_17">So allow time for the disbelievers. Leave them awhile.</string>
+
+    <!-- me work start  -->
+    <!-- add first surat An Naba   -->
+    <string name="verse_an_naba_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_an_naba_1">About what are they asking one another?</string>
+    <string name="verse_an_naba_2">About the great news</string>
+    <string name="verse_an_naba_3">That over which they are in disagreement.</string>
+    <string name="verse_an_naba_4">No! They are going to know.</string>
+    <string name="verse_an_naba_5">Then, no! They are going to know.</string>
+    <string name="verse_an_naba_6">Have We not made the earth a resting place?</string>
+    <string name="verse_an_naba_7">And the mountains as stakes?</string>
+    <string name="verse_an_naba_8">And We created you in pairs.</string>
+    <string name="verse_an_naba_9">And made your sleep [a means for] rest</string>
+    <string name="verse_an_naba_10">And made the night as clothing.</string>
+    <string name="verse_an_naba_11">And made the day for livelihood.</string>
+    <string name="verse_an_naba_12">And constructed above you seven strong [heavens].</string>
+    <string name="verse_an_naba_13">And made [therein] a burning lamp</string>
+    <string name="verse_an_naba_14">And sent down, from the rain clouds, pouring water.</string>
+    <string name="verse_an_naba_15">That We may bring forth thereby grain and vegetation.</string>
+    <string name="verse_an_naba_16">And gardens of entwined growth.</string>
+    <string name="verse_an_naba_17">Indeed, the Day of Judgement is an appointed time-</string>
+    <string name="verse_an_naba_18">The Day the Horn is blown and you will come forth in multitudes</string>
+    <string name="verse_an_naba_19">And the heaven is opened and will become gateways.</string>
+    <string name="verse_an_naba_20">And the mountains are removed and will be [but] a mirage.</string>
+    <string name="verse_an_naba_21">Indeed, Hell has been lying in wait,</string>
+    <string name="verse_an_naba_22">For the transgressors, a place of return,</string>
+    <string name="verse_an_naba_23">In which they will remain for ages [unending].</string>
+    <string name="verse_an_naba_24">They will not taste therein [any] coolness or drink.</string>
+    <string name="verse_an_naba_25">Except scalding water and [foul] purulence -</string>
+    <string name="verse_an_naba_26">An appropriate recompense.</string>
+    <string name="verse_an_naba_27">Indeed, they were not expecting an account</string>
+    <string name="verse_an_naba_28">And denied Our verses with [emphatic] denial.</string>
+    <string name="verse_an_naba_29">But all things We have enumerated in writing.</string>
+    <string name="verse_an_naba_30">"So taste [the penalty], and never will We increase you except in torment."</string>
+    <string name="verse_an_naba_31">Indeed, for the righteous is attainment -</string>
+    <string name="verse_an_naba_32">Gardens and grapevines.</string>
+    <string name="verse_an_naba_33">And full-breasted [companions] of equal age.</string>
+    <string name="verse_an_naba_34">And a full cup.</string>
+    <string name="verse_an_naba_35">No ill speech will they hear therein or any falsehood -</string>
+    <string name="verse_an_naba_36">[As] reward from your Lord, [a generous] gift [made due by] account,</string>
+    <string name="verse_an_naba_37">[From] the Lord of the heavens and the earth and whatever is between them, the Most Merciful. They possess not from Him [authority for] speech.</string>
+    <string name="verse_an_naba_38">The Day that the Spirit [i.e., Gabriel] and the angels will stand in rows, they will not speak except for one whom the Most Merciful permits, and he will say what is correct.</string>
+    <string name="verse_an_naba_39">That is the True [i.e., certain] Day; so he who wills may take to his Lord a [way of] return.</string>
+    <string name="verse_an_naba_40"> Indeed, We have warned you of an impending punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, \".Oh, I wish that I were dust!\"</string>
+    <!--an_naziat-->
+    <string name="verse_an_naziat_0">In the name of Allah,\nthe Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_an_naziat_1">By those [angels] who extract with violence.</string>
+    <string name="verse_an_naziat_2">And [by] those who remove with ease</string>
+    <string name="verse_an_naziat_3">And [by] those who glide [as if] swimming</string>
+    <string name="verse_an_naziat_4">And those who race each other in a race</string>
+    <string name="verse_an_naziat_5">And those who arrange [each] matter,</string>
+    <string name="verse_an_naziat_6">On the Day the blast [of the Horn] will convulse [creation],</string>
+    <string name="verse_an_naziat_7">There will follow it the subsequent [one].</string>
+    <string name="verse_an_naziat_8">Hearts, that Day, will tremble,</string>
+    <string name="verse_an_naziat_9">Their eyes humbled.</string>
+    <string name="verse_an_naziat_10">They are [presently] saying, "\Will we indeed be returned to [our] former state [of life]?</string>
+    <string name="verse_an_naziat_11">Even if we should be decayed bones?"</string>
+    <string name="verse_an_naziat_12">They say, "That, then, would be a losing return."</string>
+    <string name="verse_an_naziat_13">Indeed, it will be but one shout,</string>
+    <string name="verse_an_naziat_14">And suddenly they will be [alert] upon the earth\'s surface. </string>
+    <string name="verse_an_naziat_15">Has there reached you the story of Moses? -</string>
+    <string name="verse_an_naziat_16">When his Lord called to him in the sacred valley of Ṭuwā,</string>
+    <string name="verse_an_naziat_17">"Go to Pharaoh. Indeed, he has transgressed.</string>
+    <string name="verse_an_naziat_18">And say to him, Would you [be willing to] purify yourself </string>
+    <string name="verse_an_naziat_19">And let me guide you to your Lord so you would fear [Him]?</string>
+    <string name="verse_an_naziat_20">And he showed him the greatest sign,</string>
+    <string name="verse_an_naziat_21">But he [i.e., Pharaoh] denied and disobeyed.</string>
+    <string name="verse_an_naziat_22">Then he turned his back, striving [i.e., plotting].</string>
+    <string name="verse_an_naziat_23">And he gathered [his people] and called out.</string>
+    <string name="verse_an_naziat_24">And said, "I am your most exalted lord."</string>
+    <string name="verse_an_naziat_25">So Allah seized him in exemplary punishment for the last and the first [transgression].</string>
+    <string name="verse_an_naziat_26">Indeed in that is a lesson [i.e., warning] for whoever would fear [Allah].</string>
+    <string name="verse_an_naziat_27">Are you a more difficult creation or is the heaven? He [i.e., Allah] constructed it.</string>
+    <string name="verse_an_naziat_28">He raised its ceiling and proportioned it.</string>
+    <string name="verse_an_naziat_29">And He darkened its night and extracted its brightness.</string>
+    <string name="verse_an_naziat_30">And after that He spread the earth.</string>
+    <string name="verse_an_naziat_31">He extracted from it its water and its pasture,</string>
+    <string name="verse_an_naziat_32">And the mountains He set firmly</string>
+    <string name="verse_an_naziat_33">As enjoyment [i.e., provision] for you and your grazing livestock.</string>
+    <string name="verse_an_naziat_34">But when there comes the greatest Overwhelming Calamity -</string>
+    <string name="verse_an_naziat_35">The Day when man will remember that for which he strove,</string>
+    <string name="verse_an_naziat_36">And Hellfire will be exposed for [all] those who see -</string>
+    <string name="verse_an_naziat_37">So as for he who transgressed</string>
+    <string name="verse_an_naziat_38">And preferred the life of the world,</string>
+    <string name="verse_an_naziat_39">Then indeed, Hellfire will be [his] refuge.</string>
+    <string name="verse_an_naziat_40">But as for he who feared the position of his Lord and prevented the soul from [unlawful] inclination,</string>
+    <string name="verse_an_naziat_41">Then indeed, Paradise will be [his] refuge.</string>
+    <string name="verse_an_naziat_42">They ask you, [O Muḥammad], about the Hour: when is its arrival?</string>
+    <string name="verse_an_naziat_43">In what [position] are you that you should mention it?</string>
+    <string name="verse_an_naziat_44">To your Lord is its finality.</string>
+    <string name="verse_an_naziat_45">You are only a warner for those who fear it.</string>
+    <string name="verse_an_naziat_46">It will be, on the Day they see it, as though they had not remained [in the world] except for an afternoon or a morning thereof.</string>
+<!--    Abasa Add Surah -->
+    <string name="verse_Abasa_0">In the name of Allah, the Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_Abasa_1">He [i.e., the Prophet (ﷺ) ] frowned and turned away</string>
+    <string name="verse_Abasa_2">Because there came to him the blind man, [interrupting].</string>
+    <string name="verse_Abasa_3">But what would make you perceive, [O Muḥammad], that perhaps he might be purified</string>
+    <string name="verse_Abasa_4">Or be reminded and the remembrance would benefit him?</string>
+    <string name="verse_Abasa_5">As for he who thinks himself without need,</string>
+    <string name="verse_Abasa_6">To him you give attention.</string>
+    <string name="verse_Abasa_7">And not upon you [is any blame] if he will not be purified.</string>
+    <string name="verse_Abasa_8">But as for he who came to you striving [for knowledge]</string>
+    <string name="verse_Abasa_9">While he fears [Allah],</string>
+    <string name="verse_Abasa_10">From him you are distracted.</string>
+    <string name="verse_Abasa_11">No! Indeed, they [i.e., these verses] are a reminder;</string>
+    <string name="verse_Abasa_12">So whoever wills may remember it.</string>
+    <string name="verse_Abasa_13">[It is recorded] in honored sheets,</string>
+    <string name="verse_Abasa_14">Exalted and purified,</string>
+    <string name="verse_Abasa_15">[Carried] by the hands of messenger-angels,</string>
+    <string name="verse_Abasa_16">Noble and dutiful.</string>
+    <string name="verse_Abasa_17">Destroyed [i.e., cursed] is man; how disbelieving is he.</string>
+    <string name="verse_Abasa_18">From what thing [i.e., substance] did He create him?</string>
+    <string name="verse_Abasa_19">From a sperm-drop He created him and destined for him;</string>
+    <string name="verse_Abasa_20">Then He eased the way for him;</string>
+    <string name="verse_Abasa_21">Then He causes his death and provides a grave for him.</string>
+    <string name="verse_Abasa_22">Then when He wills, He will resurrect him.</string>
+    <string name="verse_Abasa_23">No! He [i.e., man] has not yet accomplished what He commanded him.</string>
+    <string name="verse_Abasa_24">Then let mankind look at his food -</string>
+    <string name="verse_Abasa_25">How We poured down water in torrents,</string>
+    <string name="verse_Abasa_26">Then We broke open the earth, splitting [it with sprouts],</string>
+    <string name="verse_Abasa_27">And caused to grow within it grain</string>
+    <string name="verse_Abasa_28">And grapes and herbage</string>
+    <string name="verse_Abasa_29">And olive and palm trees</string>
+    <string name="verse_Abasa_30">And gardens of dense shrubbery</string>
+    <string name="verse_Abasa_31">And fruit and grass -</string>
+    <string name="verse_Abasa_32">[As] enjoyment [i.e., provision] for you and your grazing livestock.</string>
+    <string name="verse_Abasa_33">But when there comes the Deafening Blast</string>
+    <string name="verse_Abasa_34">On the Day a man will flee from his brother</string>
+    <string name="verse_Abasa_35">And his mother and his father</string>
+    <string name="verse_Abasa_36">And his wife and his children,</string>
+    <string name="verse_Abasa_37">For every man, that Day, will be a matter adequate for him.</string>
+    <string name="verse_Abasa_38">[Some] faces, that Day, will be bright -</string>
+    <string name="verse_Abasa_39">Laughing, rejoicing at good news.</string>
+    <string name="verse_Abasa_40">And [other] faces, that Day, will have upon them dust.</string>
+    <string name="verse_Abasa_41">Blackness will cover them.</string>
+    <string name="verse_Abasa_42">Those are the disbelievers, the wicked ones.</string>
+<!--  At-Takwir -->
+    <string name="verse_At_Takwir_0">In the name of Allah, the Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_At_Takwir_1">When the sun is wrapped up [in darkness]</string>
+    <string name="verse_At_Takwir_2">And when the stars fall, dispersing,</string>
+    <string name="verse_At_Takwir_3">And when the mountains are removed</string>
+    <string name="verse_At_Takwir_4">And when full-term she-camels are neglected</string>
+    <string name="verse_At_Takwir_5">And when the wild beasts are gathered</string>
+    <string name="verse_At_Takwir_6">And when the seas are filled with flame</string>
+    <string name="verse_At_Takwir_7">And when the souls are paired</string>
+    <string name="verse_At_Takwir_8">And when the girl [who was] buried alive is asked</string>
+    <string name="verse_At_Takwir_9">For what sin she was killed</string>
+    <string name="verse_At_Takwir_10">And when the pages are spread [i.e., made public]</string>
+    <string name="verse_At_Takwir_11">And when the sky is stripped away</string>
+    <string name="verse_At_Takwir_12">And when Hellfire is set ablaze</string>
+    <string name="verse_At_Takwir_13">And when Paradise is brought near,</string>
+    <string name="verse_At_Takwir_14">A soul will [then] know what it has brought [with it].</string>
+    <string name="verse_At_Takwir_15">So I swear by the retreating stars -</string>
+    <string name="verse_At_Takwir_16">Those that run [their courses] and disappear -</string>
+    <string name="verse_At_Takwir_17">And by the night as it closes in</string>
+    <string name="verse_At_Takwir_18">And by the dawn when it breathes</string>
+    <string name="verse_At_Takwir_19">[That] indeed, it [i.e., the Qur’ān] is a word [conveyed by] a noble messenger</string>
+    <string name="verse_At_Takwir_20">[Who is] possessed of power and with the Owner of the Throne, secure [in position],</string>
+    <string name="verse_At_Takwir_21">Obeyed there [in the heavens] and trustworthy.</string>
+    <string name="verse_At_Takwir_22">And your companion is not [at all] mad.</string>
+    <string name="verse_At_Takwir_23">And he has already seen him [i.e., Gabriel] in the clear horizon.</string>
+    <string name="verse_At_Takwir_24">And he [i.e., Muḥammad (ﷺ)] is not a withholder of [knowledge of] the unseen.</string>
+    <string name="verse_At_Takwir_25">And it [i.e., the Qur’ān] is not the word of a devil, expelled [from the heavens].</string>
+    <string name="verse_At_Takwir_26">So where are you going?</string>
+    <string name="verse_At_Takwir_27">It is not except a reminder to the worlds</string>
+    <string name="verse_At_Takwir_28">For whoever wills among you to take a right course.</string>
+    <string name="verse_At_Takwir_29">And you do not will except that Allah wills - Lord of the worlds.</string>
+<!--Al-Infataar-->
+    <string name="verse_Al_Infitaar_0"> In the name of Allah, the Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_Al_Infitaar_1">When the sky breaks apart</string>
+    <string name="verse_Al_Infitaar_2">And when the stars fall, scattering,</string>
+    <string name="verse_Al_Infitaar_3">And when the seas are erupted</string>
+    <string name="verse_Al_Infitaar_4">And when the [contents of] graves are scattered [i.e., exposed],</string>
+    <string name="verse_Al_Infitaar_5">A soul will [then] know what it has put forth and kept back.</string>
+    <string name="verse_Al_Infitaar_6">O mankind, what has deceived you concerning your Lord, the Generous,</string>
+    <string name="verse_Al_Infitaar_7">Who created you, proportioned you, and balanced you?</string>
+    <string name="verse_Al_Infitaar_8">In whatever form He willed has He assembled you.</string>
+    <string name="verse_Al_Infitaar_9">No! But you deny the Recompense.</string>
+    <string name="verse_Al_Infitaar_10">And indeed, [appointed] over you are keepers,</string>
+    <string name="verse_Al_Infitaar_11">Noble and recording;</string>
+    <string name="verse_Al_Infitaar_12">They know whatever you do.</string>
+    <string name="verse_Al_Infitaar_13">Indeed, the righteous will be in pleasure,</string>
+    <string name="verse_Al_Infitaar_14">And indeed, the wicked will be in Hellfire.</string>
+    <string name="verse_Al_Infitaar_15">They will [enter to] burn therein on the Day of Recompense,</string>
+    <string name="verse_Al_Infitaar_16">And never therefrom will they be absent</string>
+    <string name="verse_Al_Infitaar_17">And what can make you know what is the Day of Recompense?</string>
+    <string name="verse_Al_Infitaar_18">Then, what can make you know what is the Day of Recompense?</string>
+    <string name="verse_Al_Infitaar_19">It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allah.</string>
+<!--Al-Mutaffifin -->
+
+    <string name="verse_Al_Mutaffifin_0">In the name of Allah, the Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_Al_Mutaffifin_1">Woe to those who give less [than due],</string>
+    <string name="verse_Al_Mutaffifin_2">Who, when they take a measure from people, take in full.</string>
+    <string name="verse_Al_Mutaffifin_3">But if they give by measure or by weight to them, they cause loss.</string>
+    <string name="verse_Al_Mutaffifin_4">Do they not think that they will be resurrected</string>
+    <string name="verse_Al_Mutaffifin_5">For a tremendous Day -</string>
+    <string name="verse_Al_Mutaffifin_6">The Day when mankind will stand before the Lord of the worlds?</string>
+    <string name="verse_Al_Mutaffifin_7">No! Indeed, the record of the wicked is in sijjeen.</string>
+    <string name="verse_Al_Mutaffifin_8">And what can make you know what is sijjeen?</string>
+    <string name="verse_Al_Mutaffifin_9">It is [their destination recorded in] a register inscribed.</string>
+    <string name="verse_Al_Mutaffifin_10">Woe, that Day, to the deniers,</string>
+    <string name="verse_Al_Mutaffifin_11">Who deny the Day of Recompense.</string>
+    <string name="verse_Al_Mutaffifin_12">And none deny it except every sinful transgressor.</string>
+    <string name="verse_Al_Mutaffifin_13"> When Our verses are recited to him, he says, \"Legends of the former peoples.\"</string>
+    <string name="verse_Al_Mutaffifin_14">No! Rather, the stain has covered their hearts of that which they were earning.</string>
+    <string name="verse_Al_Mutaffifin_15">No! Indeed, from their Lord, that Day, they will be partitioned.</string>
+    <string name="verse_Al_Mutaffifin_16">Then indeed, they will [enter and] burn in Hellfire.</string>
+    <string name="verse_Al_Mutaffifin_17">Then it will be said [to them], \"This is what you used to deny.\"</string>
+    <string name="verse_Al_Mutaffifin_18">No! Indeed, the record of the righteous is in ʿilliyyūn.</string>
+    <string name="verse_Al_Mutaffifin_19">And what can make you know what is ʿilliyyūn?</string>
+    <string name="verse_Al_Mutaffifin_20">It is [their destination recorded in] a register inscribed</string>
+    <string name="verse_Al_Mutaffifin_21">Which is witnessed by those brought near [to Allah].</string>
+    <string name="verse_Al_Mutaffifin_22">Indeed, the righteous will be in pleasure</string>
+    <string name="verse_Al_Mutaffifin_23">On adorned couches, observing.</string>
+    <string name="verse_Al_Mutaffifin_24">You will recognize in their faces the radiance of pleasure.</string>
+    <string name="verse_Al_Mutaffifin_25">They will be given to drink [pure] wine [which was] sealed.</string>
+    <string name="verse_Al_Mutaffifin_26">The last of it is musk. So for this let the competitors compete.</string>
+    <string name="verse_Al_Mutaffifin_27">And its mixture is of Tasneem,</string>
+    <string name="verse_Al_Mutaffifin_28">A spring from which those near [to Allah] drink.</string>
+    <string name="verse_Al_Mutaffifin_29">Indeed, those who committed crimes used to laugh at those who believed.</string>
+    <string name="verse_Al_Mutaffifin_30">And when they passed by them, they would exchange derisive glances.</string>
+    <string name="verse_Al_Mutaffifin_31">And when they returned to their people, they would return jesting.</string>
+    <string name="verse_Al_Mutaffifin_32">And when they saw them, they would say, "Indeed, those are truly lost."</string>
+    <string name="verse_Al_Mutaffifin_33">But they had not been sent as guardians over them.</string>
+    <string name="verse_Al_Mutaffifin_34">So Today those who believed are laughing at the disbelievers,</string>
+    <string name="verse_Al_Mutaffifin_35">On adorned couches, observing.</string>
+    <string name="verse_Al_Mutaffifin_36">Have the disbelievers [not] been rewarded [this Day] for what they used to do?</string>
+<!--Al-Inshiqaq -->
+    <string name="verse_Al_Inshiqaq_0">In the name of Allah, the Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_Al_Inshiqaq_1">When the sky has split [open]</string>
+    <string name="verse_Al_Inshiqaq_2">And has listened [i.e., responded] to its Lord and was obligated [to do so]</string>
+    <string name="verse_Al_Inshiqaq_3">And when the earth has been extended</string>
+    <string name="verse_Al_Inshiqaq_4">And has cast out that within it and relinquished [it].</string>
+    <string name="verse_Al_Inshiqaq_5">And has listened [i.e., responded] to its Lord and was obligated [to do so] -</string>
+    <string name="verse_Al_Inshiqaq_6">O mankind, indeed you are laboring toward your Lord with [great] exertion and will meet it.</string>
+    <string name="verse_Al_Inshiqaq_7">Then as for he who is given his record in his right hand,</string>
+    <string name="verse_Al_Inshiqaq_8">He will be judged with an easy account</string>
+    <string name="verse_Al_Inshiqaq_9">And return to his people in happiness.</string>
+    <string name="verse_Al_Inshiqaq_10">But as for he who is given his record behind his back,</string>
+    <string name="verse_Al_Inshiqaq_11">He will cry out for destruction</string>
+    <string name="verse_Al_Inshiqaq_12">And [enter to] burn in a Blaze.</string>
+    <string name="verse_Al_Inshiqaq_13">Indeed, he had [once] been among his people in happiness;</string>
+    <string name="verse_Al_Inshiqaq_14">Indeed, he had thought he would never return [to Allah].</string>
+    <string name="verse_Al_Inshiqaq_15">But yes! Indeed, his Lord was ever, of him, Seeing.</string>
+    <string name="verse_Al_Inshiqaq_16">So I swear by the twilight glow</string>
+    <string name="verse_Al_Inshiqaq_17">And [by] the night and what it envelops</string>
+    <string name="verse_Al_Inshiqaq_18">And [by] the moon when it becomes full</string>
+    <string name="verse_Al_Inshiqaq_19">[That] you will surely embark upon [i.e., experience] state after state.</string>
+    <string name="verse_Al_Inshiqaq_20">So what is [the matter] with them [that] they do not believe,</string>
+    <string name="verse_Al_Inshiqaq_21">And when the Qur’ān is recited to them, they do not prostrate [to Allah]?</string>
+    <string name="verse_Al_Inshiqaq_22">But those who have disbelieved deny,</string>
+    <string name="verse_Al_Inshiqaq_23">And Allah is most knowing of what they keep within themselves.</string>
+    <string name="verse_Al_Inshiqaq_24">So give them tidings of a painful punishment,</string>
+    <string name="verse_Al_Inshiqaq_25">Except for those who believe and do righteous deeds. For them is a reward uninterrupted.</string>
+<!--Al-Burooj   ai_burooj_0.-->
+    <string name="verse_Al_Burooj_0">In the name of Allah, the Entirely Merciful, the Especially Merciful.</string>
+    <string name="verse_Al_Burooj_1">By the sky containing great stars</string>
+    <string name="verse_Al_Burooj_2">And [by] the promised Day</string>
+    <string name="verse_Al_Burooj_3">And [by] the witness and what is witnessed,</string>
+    <string name="verse_Al_Burooj_4">Destroyed [i.e., cursed] were the companions of the trench</string>
+    <string name="verse_Al_Burooj_5">[Containing] the fire full of fuel,</string>
+    <string name="verse_Al_Burooj_6">When they were sitting near it.</string>
+    <string name="verse_Al_Burooj_7">And they, to what they were doing against the believers, were witnesses.</string>
+    <string name="verse_Al_Burooj_8">And they resented them not except because they believed in Allah, the Exalted in Might, the Praiseworthy,</string>
+    <string name="verse_Al_Burooj_9">To whom belongs the dominion of the heavens and the earth. And Allah, over all things, is Witness.</string>
+    <string name="verse_Al_Burooj_10">Indeed, those who have tortured the believing men and believing women and then have not repented will have the punishment of Hell, and they will have the punishment of the Burning Fire.</string>
+    <string name="verse_Al_Burooj_11">Indeed, those who have believed and done righteous deeds will have gardens beneath which rivers flow. That is the great attainment.</string>
+    <string name="verse_Al_Burooj_12">Indeed, the assault [i.e., vengeance] of your Lord is severe.</string>
+    <string name="verse_Al_Burooj_13">Indeed, it is He who originates [creation] and repeats.</string>
+    <string name="verse_Al_Burooj_14">And He is the Forgiving, the Affectionate,</string>
+    <string name="verse_Al_Burooj_15">Honorable Owner of the Throne,</string>
+    <string name="verse_Al_Burooj_16">Effecter of what He intends.</string>
+    <string name="verse_Al_Burooj_17">Has there reached you the story of the soldiers -</string>
+    <string name="verse_Al_Burooj_18">[Those of] Pharaoh and Thamūd?</string>
+    <string name="verse_Al_Burooj_19">But they who disbelieve are in [persistent] denial,</string>
+    <string name="verse_Al_Burooj_20">While Allah encompasses them from behind.</string>
+    <string name="verse_Al_Burooj_21">But this is an honored Qur’ān</string>
+    <string name="verse_Al_Burooj_22">[Inscribed] in a Preserved Slate.</string>
+</resources>

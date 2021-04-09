@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="default_start_anim_duration">225</integer>
+    <integer name="default_finish_anim_duration">125</integer>
+
+    <dimen name="surah_logo_height">140dp</dimen>
+
+</resources>
